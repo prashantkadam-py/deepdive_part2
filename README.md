@@ -27,4 +27,4 @@ Implement a Polygons sequence type:
 - max efficiency polygon : returns the Polygon with the highest area : perimeter ratio
 
 ### Functionality
-- Functions as a sequence type (__getitem__)
+- Functions as a sequence type (\_\_getitem\_\_)
