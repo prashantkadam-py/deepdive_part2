@@ -2,7 +2,7 @@
 
 # Project1
 ## Goal1
-We need to create Polygon class with following properties :
+ We need to create Polygon class with following properties :
 
  - number of vertices n - passed to the initializer
  - circumradius R - passed to the initializer
@@ -15,3 +15,5 @@ We need to create Polygon class with following properties :
  - perimeter
  - supports equality (==) based on number of vertices and circumradius
  - supports greater than (>) based on number of vertices
+
+## Goal2
