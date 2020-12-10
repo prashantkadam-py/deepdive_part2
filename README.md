@@ -1,8 +1,8 @@
 # deepdive_part2
 
 # Project1
-## Goal1
- We need to create Polygon class with following properties :
+ ## Goal1
+   We need to create Polygon class with following properties :
 
  - number of vertices n - passed to the initializer
  - circumradius R - passed to the initializer
