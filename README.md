@@ -28,3 +28,17 @@ Implement a Polygons sequence type:
 
 ### Functionality
 - Functions as a sequence type (\_\_getitem\_\_)
+
+# ===========================
+# Coding Exercise
+
+## Iterators vs Iterables
+
+- Iterator Implements following protocol :
+    - \_\_next\_\_  : returns next item from the data collection
+    - \_\_iter\_\_  : returns class instance (self)
+    - Iterators exhaust.
+    
+- Iterable implements following protocol : 
+    - \_\_iter\_\_ : returns new instance of the iterator object used to iterate over iterable.
+    - Iterables are non-exhaustive.
