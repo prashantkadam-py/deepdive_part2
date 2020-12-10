@@ -51,7 +51,7 @@ class Polygon(object):
     @property
     def __eq__(self, other):
         if isinstance(other, self.__class__):
-            return (self.count_edges == other.count_edges \ 
+            return (self.count_edges == other.count_edges 
                     and self.circumradius == other.circumradius)
         else:
             return NotImplemented
