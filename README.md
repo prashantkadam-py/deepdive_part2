@@ -15,7 +15,7 @@ Implement Custom Sequence Type with some properties.
     - Iterables are non-exhaustive.
     
 - Examples :
-    - Iterator(CityIterator) -Iterable(Cities)
+    - Iterator(CityIterator) - Iterable(Cities)
     - Cyclic Iterators
     - Lazy Iterables (Factorials)
     - Generic Callable Iterator
