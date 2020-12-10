@@ -13,3 +13,11 @@ Implement Custom Sequence Type with some properties.
 - Iterable implements following protocol : 
     - \_\_iter\_\_ : returns new instance of the iterator object used to iterate over iterable.
     - Iterables are non-exhaustive.
+    
+- Examples :
+    - Iterator(CityIterator)-Iterable(Cities)
+    - Cyclic Iterators
+    - Lazy Iterables (Factorials)
+    - Generic Callable Iterator
+    - Delegating Iterators
+    - Reversed Iteration
