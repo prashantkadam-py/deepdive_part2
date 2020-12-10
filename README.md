@@ -14,10 +14,11 @@ Implement Custom Sequence Type with some properties.
     - \_\_iter\_\_ : returns new instance of the iterator object used to iterate over iterable.
     - Iterables are non-exhaustive.
     
-- Examples :
+- Examples : (iterable_iterator_exercises)
     - Iterator(CityIterator) - Iterable(Cities)
     - Cyclic Iterators
     - Lazy Iterables (Factorials)
     - Generic Callable Iterator
     - Delegating Iterators
     - Reversed Iteration
+
