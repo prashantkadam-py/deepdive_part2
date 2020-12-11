@@ -27,3 +27,10 @@ Refactor Project1 code of Polygon and Polygons.
 - Convert all the calculated Polygon properties to lazy properties.
 - Convert Polygons (Sequence) type into an Iterable.
 
+## 4. Generators
+- Generator functions are functions which contain atleast one yield statement.
+- When Generator Function is called python returns a generator object.
+- Generator implements following Protocol :
+    - Generator implements Iterator protocol.
+- Generators are inherently lazy iterators.
+- Generators become exhausted when function returns a value.
