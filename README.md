@@ -1,9 +1,9 @@
 # deepdive_part2
 
-# Project1
+# 1. Project1
 Implement Custom Sequence Type with some properties. 
 
-# Iterators vs Iterables
+# 2. Iterators vs Iterables
 
 - Iterator Implements following protocol :
     - \_\_next\_\_  : returns next item from the data collection
