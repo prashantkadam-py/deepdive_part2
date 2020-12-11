@@ -1,9 +1,9 @@
 # deepdive_part2
 
-# 1. Project1
+## 1. Project1
 Implement Custom Sequence Type with some properties. 
 
-# 2. Iterators vs Iterables
+## 2. Iterators vs Iterables
 
 - Iterator Implements following protocol :
     - \_\_next\_\_  : returns next item from the data collection
@@ -21,4 +21,9 @@ Implement Custom Sequence Type with some properties.
     - Generic Callable Iterator
     - Delegating Iterators
     - Reversed Iteration
+   
+## 3. Project2
+Refactor Project1 code of Polygon and Polygons. 
+- Convert all the calculated Polygon properties to lazy properties.
+- Convert Polygons (Sequence) type into an Iterable.
 
