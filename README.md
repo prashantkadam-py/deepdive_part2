@@ -34,3 +34,9 @@ Refactor Project1 code of Polygon and Polygons.
     - Generator implements Iterator protocol.
 - Generators are inherently lazy iterators.
 - Generators become exhausted when function returns a value.
+
+## 5. Project3
+- Process csv file efficiently. 
+    - Keep memory overhead minimum.
+    - Use lazy iterator and lazy evaluation.
+
