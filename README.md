@@ -1,7 +1,7 @@
 # deepdive_part2
 
 ## 1. Project1
-Implement Custom Sequence Type with some properties. 
+Implement Custom Sequence Type with some propertie. Use \_\_getitem\_\_ method to implement the custom sequencer. 
 
 ## 2. Iterators vs Iterables
 
