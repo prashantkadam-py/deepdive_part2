@@ -3,7 +3,7 @@
 # Project1
 Implement Custom Sequence Type with some properties. 
 
-## Iterators vs Iterables
+# Iterators vs Iterables
 
 - Iterator Implements following protocol :
     - \_\_next\_\_  : returns next item from the data collection
