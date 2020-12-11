@@ -14,8 +14,9 @@
     - my_fucn() : generator factory
     - gen : generator object 
     - next(gen) :           __STATE__ : RUNNING
-          - executes generator until "yield" statement and then it suspend itself, until next yield is called again.
+          - Executes generator until "yield" statement and then it suspend itself, until next yield is called again.
           - If it encounters "return" before "yield" StopIteration exception occurs.
+          - Calling next on the function resumes running the function right after the yield statement.
           
     
     
