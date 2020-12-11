@@ -15,5 +15,9 @@ Implement Lazy Iterable Factorials. It calculates factorial of a number on reque
 Implement Generic Callable Iterator which accepts callable function/closure and Sentinel value.  
 
 # Delegating Iterators
+## delegating_iterators_50.py
+Implement Iterable with \_\_iter\_\_ method to convert list to iterator.
 
 # Reversed Iteration
+## reversed_iteration_52.py
+Implement Reversed Iterable for CardDeck Example using \_\_reversed\_\_ method.
