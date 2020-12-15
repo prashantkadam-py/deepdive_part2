@@ -25,5 +25,12 @@
     - return value from \_\_enter\_\_ is assigned to ctx.
     - after the with block, or if an exception occurs inside the with block its \_\_exit\_\_ method is called.
     
-    
+ 
+ ## context_manager_classes_98.py 
+ context manager basic examples.
+ 
+ ## context_manager_use_cases_102.py
+   - Precision (change decimal precision) 
+   - Timer (calculate elapsed time)
+   - OutToFile (change system out )
       
