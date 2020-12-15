@@ -40,8 +40,5 @@ Find the largest group of car makes for each gender.
 Possibly more than one such group per gender exists (equal sizes).
 
 
-    
-
-
 
 
