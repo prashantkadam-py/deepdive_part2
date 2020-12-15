@@ -54,6 +54,7 @@ Refactor Project1 code of Polygon and Polygons.
    
    - \_\_exit\_\_ : 
         - Runs even if an exception occurs in with block like try-finally.
+        
 - Common Patterns :
     - open-close
     - lock-release
