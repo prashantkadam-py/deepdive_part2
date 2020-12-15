@@ -33,4 +33,8 @@
    - Precision (change decimal precision) 
    - Timer (calculate elapsed time)
    - OutToFile (change system out )
+   
+ ## context_manager_decorator_106.py
+ - created custom context manager decorator from scratch.
+ - use contextlib for inbuilt contextmanager.
       
