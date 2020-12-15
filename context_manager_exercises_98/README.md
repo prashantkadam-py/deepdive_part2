@@ -7,6 +7,10 @@
    
    - \_\_exit\_\_ : 
         - Runs even if an exception occurs in with block like try-finally.
+        - input for method exc_type, exc_value, exc_trace.
+        - It returns True / False :
+            - True : Silence any raised exception.
+            - False : do not silence a raised exception.
         
 - Common Patterns :
     - open-close
