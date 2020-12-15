@@ -41,4 +41,7 @@ Refactor Project1 code of Polygon and Polygons.
     - Use lazy iterator and lazy evaluation
    
 ## 6. Project4
+- Process csv files efficiently.
+    - Keep memory overhead minimum.
+    - Use itertools module for lazy iteration.
 
