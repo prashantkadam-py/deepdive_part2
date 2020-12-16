@@ -45,7 +45,7 @@ Refactor Project1 code of Polygon and Polygons.
     - Keep memory overhead minimum.
     - Use itertools module for lazy iteration.
    
-## Context Manager
+## 7. Context Manager
 
 - It implements following protocol : 
    - \_\_enter\_\_ :
