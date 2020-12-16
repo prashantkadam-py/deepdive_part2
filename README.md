@@ -46,7 +46,6 @@ Refactor Project1 code of Polygon and Polygons.
     - Use itertools module for lazy iteration.
    
 ## 7. Context Manager
-
 - It implements following protocol : 
    - \_\_enter\_\_ :
         - This method should perform whatever setup it needs to.
@@ -61,4 +60,11 @@ Refactor Project1 code of Polygon and Polygons.
     - change-reset
     - start-stop
     - enter-exit
+ 
+## 8. Project5
+- The basic goal of the project is to create a context manager that requires only file name and prodvides us an iterator we can use to iterate over the data in those files.
+- data files :
+    - cars.csv
+    - personal_info.csv
+
 
