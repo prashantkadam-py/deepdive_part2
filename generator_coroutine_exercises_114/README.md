@@ -71,3 +71,12 @@
            - generator handles exception and raises another exception.
            - new exception propogates to the caller. 
            - generator is now CLOSED. 
+           
+## gen.close() vs gen.throw(GeneratorExit) :
+   
+        - gen.close() :
+           - GeneratorExit exception is raised inside generator.
+           - Python expects GeneratorExit or StopIteration exception to propogate, and silences it for the caller.
+        - gen.throw(GeneratorExit) :
+           - GeneratorExit exception is raised inside the caller context (if the generator lets it).
+ 
