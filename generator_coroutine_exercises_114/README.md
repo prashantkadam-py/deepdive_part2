@@ -45,3 +45,29 @@
       - throw(exception, value) : We can send any exception to coroutine.
       - the exception is raised at the point where the coroutine is SUSPENDED.
       
+## gen.throw(exception, value) :
+   
+   ### TYPE I : 
+        Generator does not catch the exception (does nothing). Exception propogates back to the caller.
+      
+   ### TYPE II :
+        - catch and yield : 
+           - generator catches the exception.
+           - handles and silences the exception.
+           - yields a value.
+           - generator is now SUSPENDED.
+           - yielded value is the return value of the throw() method.
+        
+        - catch and return : 
+           - generator catches the exception.
+           - generator exits (returns).
+           - caller receives a StopIteration exception.
+           - generator is now CLOSED.
+           - this is same as calling send() or next() to generator that returns instead of yielding.
+           - can think of throw() as same thing as send(), but causes an exception to be sent instead of plain data.
+          
+        - catch and raise different exception : 
+           - generator catches the exception.
+           - generator handles exception and raises another exception.
+           - new exception propogates to the caller. 
+           - generator is now CLOSED. 
