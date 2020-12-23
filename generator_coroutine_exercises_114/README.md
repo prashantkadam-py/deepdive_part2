@@ -21,3 +21,11 @@
     
   __Note__ : 
           Python threading is inbetween cooperative and preemptive. 
+        
+## Coroutines : 
+  - Cooperative multitasking 
+  - concurrent not parallel.
+  - Python program executes on a single thread (GIL).
+  - Two ways to create coroutines in Python : 
+      - generators uses extended yield
+      - asyncio native corutines uses async/await.
