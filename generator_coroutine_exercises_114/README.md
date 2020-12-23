@@ -29,3 +29,10 @@
   - Two ways to create coroutines in Python : 
       - generators uses extended yield
       - asyncio native corutines uses async/await.
+      
+## Generator close : 
+   - Python's expectations when close() is called :
+      - __GeneratorExit__ exception bubbles up
+      - The generator exits cleanly (returns).
+      - The exception is silenced by python.
+      - To the caller everything works normally.
